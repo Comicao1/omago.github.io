@@ -10,7 +10,7 @@ async function xd() {
     //const mytext = mytextInput.value.trim();
     const elem = document.getElementById("pergunta");
     const responseTextarea = document.getElementById('escrevaq');
-    responseTextarea.innerHTML = "ESTOU PENSANDO."
+    responseTextarea.innerHTML = "ESTOU PENSANDO. AGUARDE A RESPOSTA."
     if (elem) {
         try {
             const response = await fetch('https://api.openai.com/v1/chat/completions', {
