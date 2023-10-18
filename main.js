@@ -17,7 +17,7 @@ async function xd() {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
-                    'Authorization': `Bearer ${API_KEY}PFFZ9mT6N9ylQg4o95BwT3BlbkFJDClCkkfyI74m4q9BMZHp`,
+                    'Authorization': `Bearer ${API_KEY}uOcwUd57f4xC5gFNMINiT3BlbkFJZ9V8V9Q8fPqg8qLAygdi`,
                 },
                 body: JSON.stringify({
                     model: 'gpt-3.5-turbo',
